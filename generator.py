@@ -56,7 +56,7 @@ class ContentGenerator:
             }
             
             data = {
-                "model": "llama-3.1-8b-instant",
+                "model": "llama-3.1-70b-versatile",
                 "messages": [{"role": "user", "content": prompt}],
                 "max_tokens": 2000,
                 "temperature": 0.8
